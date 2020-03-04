@@ -9,20 +9,21 @@
   /* border: 1px red solid; */
   border-radius: 5%;
   margin: 0.2%;
+  font-family: 'Jua', sans-serif;
 }
 
-/* .gray1 {
-  background-color: rgb(206, 206, 206);
+article {
+  font-family: 'Merriweather', serif;
 }
-.gray2 {
-  background-color: rgb(177, 177, 177);
+
+.button {
+  background-color: var(--gray1);
+  width: 200px;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+  margin-top: 20px;
 }
-.gray3 {
-  background-color: rgb(122, 122, 122);
-}
-.gray4 {
-  background-color: rgb(85, 85, 85);
-} */
 
 nav {
   width: 100%;
@@ -33,6 +34,7 @@ nav {
   align-items: center;
   padding-left: 2%;
   padding-right: 2%;
+  display: none;
 }
 
 nav > * {
@@ -40,17 +42,20 @@ nav > * {
   z-index: 1;
   width: 14%;
 }
+
 .first {
-    position: relative;
-    top: -20px;
-    width: 3.5%;
-    height: 40px;
-    transform: rotate(-10deg);
+  position: relative;
+  top: -20px;
+  width: 3.5%;
+  height: 40px;
+  transform: rotate(-10deg);
 }
+
 .last {
-    width: 11%;
-    height: 30%;
+  width: 11%;
+  height: 30%;
 }
+
 /* .circle {
     height: 13%;
     width: 13%;
@@ -58,54 +63,111 @@ nav > * {
     margin: 0 auto;
 } */
 .navtit {
-    padding-top: 35%;
-    margin: 0 auto;
-    text-align: center;
-    height: 140px;
+  padding-top: 35%;
+  margin: 0 auto;
+  text-align: center;
+  height: 140px;
 }
 
 .navtit h2 {
-    font-family: 'Jua', sans-serif;
-    color: var(--gray4);
-    margin: 0;
+  font-family: 'Jua', sans-serif;
+  color: var(--gray4);
+  margin: 0;
 }
-.navtit h4 {
-    font-family: 'Merriweather', serif;
-    color: var(--gray3);
-    font-size: 12px;
-    margin: 0;
 
+.navtit h4 {
+  font-family: 'Merriweather', serif;
+  color: var(--gray3);
+  font-size: 12px;
+  margin: 0;
 }
+
 .box1 {
   display: grid;
   grid-template-rows: 1.5fr 1fr;
   grid-template-columns: 1fr 1fr;
   background-color: var(--gray4);
   position: relative;
-  height: 500px;
+  height: 1000px;
+  display: none;
 }
 
 .cardsh {
   position: absolute;
-  background-color: blue;
+  background-color: white;
   width: 400px;
-  height: 120px;
-  margin: 0 calc(50%);
+  padding: 5px;
+  margin: 0 50%;
   left: -200px;
+  top: 7%;
+  color: var(--gray4);
+  font-size: 2.3em;
+  text-align: center;
+}
+
+.cards {
+  /* justify-self: left; */
+  display: flex;
+  padding: 10px;
+
+  /* align-self: center; */
+  padding-left: 10%;
+  background-image: ;
+  background-image: linear-gradient(
+    to right,
+    rgb(122, 122, 122),
+    rgb(90, 90, 90)
+  );
+}
+
+.cards h2 {
+  align-self: center;
+  text-align: left;
+  color: white;
 }
 
 .box2 {
   display: grid;
-  background-color: aqua;
+  background-color: white;
   grid-template-columns: repeat(3, 1fr);
-  height: 300px;
+  padding: 3%;
+  gap: 3%;
+  display: none;
+}
+
+.box2 .box2 h4 {
+  color: var(--gray3);
+}
+
+.box2 article {
+  color: var(--gray2);
+  margin-top: 20px;
 }
 
 .box3 {
   display: grid;
-  background-color: rgb(98, 134, 134);
   grid-template-columns: 1fr 2fr;
   height: 400px;
+  display: none;
+}
+
+.rightlogo {
+  width: 100%;
+  background-color: var(--gray4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+}
+
+.rightlogo h2 {
+  margin-bottom: 10px;
+}
+
+.rightlogo article {
+  text-align: center;
+  text-indent: 25px;
 }
 
 .box4 {
@@ -165,11 +227,10 @@ nav > * {
 
 .box14 {
   background-color: rgb(149, 26, 165);
-
 }
+
 .child14 {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   height: 100px;
 }
