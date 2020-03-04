@@ -11,6 +11,10 @@
   margin: 0.2%;
   font-family: 'Jua', sans-serif;
 }
+html {
+  width: 1000px;
+  margin: 0 auto;
+}
 
 article {
   font-family: 'Merriweather', serif;
@@ -34,7 +38,6 @@ nav {
   align-items: center;
   padding-left: 2%;
   padding-right: 2%;
-  display: none;
 }
 
 nav > * {
@@ -56,12 +59,6 @@ nav > * {
   height: 30%;
 }
 
-/* .circle {
-    height: 13%;
-    width: 13%;
-    background-color: var(--gray2);
-    margin: 0 auto;
-} */
 .navtit {
   padding-top: 35%;
   margin: 0 auto;
@@ -89,7 +86,6 @@ nav > * {
   background-color: var(--gray4);
   position: relative;
   height: 1000px;
-  display: none;
 }
 
 .cardsh {
@@ -112,7 +108,6 @@ nav > * {
 
   /* align-self: center; */
   padding-left: 10%;
-  background-image: ;
   background-image: linear-gradient(
     to right,
     rgb(122, 122, 122),
@@ -126,31 +121,27 @@ nav > * {
   color: white;
 }
 
-.box2 {
+.box2, .box4 {
   display: grid;
   background-color: white;
   grid-template-columns: repeat(3, 1fr);
   padding: 3%;
   gap: 3%;
-  display: none;
 }
 
-.box2 .box2 h4 {
-  color: var(--gray3);
-}
-
-.box2 article {
+.box2 article, .box4 article, .box5 article {
   color: var(--gray2);
   margin-top: 20px;
 }
 
-.box3 {
+.box3, .box5 {
   display: grid;
   grid-template-columns: 1fr 2fr;
   height: 400px;
-  display: none;
 }
-
+.box5 .sum1 {
+  padding: 9%;
+}
 .rightlogo {
   width: 100%;
   background-color: var(--gray4);
@@ -170,32 +161,44 @@ nav > * {
   text-indent: 25px;
 }
 
-.box4 {
-  display: grid;
-  background-color: aqua;
-  grid-template-columns: repeat(3, 1fr);
-  height: 300px;
-}
-
-.box5 {
-  display: grid;
-  background-color: rgb(98, 134, 134);
-  grid-template-columns: 1fr 2fr;
-  height: 400px;
-}
-
 .box6 {
-  background-color: rgb(106, 192, 99);
+  background-color:var(--gray1);
   height: 500px;
+  margin-top: 4%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15% 25% 15% 25%;
+}
+.box6 h2 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+.box6 .button {
+  background-color: white;
+  width: 300px;
 }
 
 .box7 {
   display: grid;
-  background-color: rgb(172, 180, 52);
   grid-template-columns: 1fr 3fr;
-  height: 200px;
+  padding: 10% 5% 10% 5%;
 }
-
+.box7 h4 {
+  margin-bottom: 5%;
+  color: var(--gray2);
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+.portrait {
+  background-color: var(--gray4);
+  width: 80%;
+  height: 75%;
+  transform: rotate(-15deg);
+  margin-top: 12%;
+}
 .box8 {
   display: grid;
   background-color: aqua;
