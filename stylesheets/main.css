@@ -11,6 +11,7 @@
   margin: 0.2%;
   font-family: 'Jua', sans-serif;
 }
+
 html {
   width: 1000px;
   margin: 0 auto;
@@ -108,11 +109,12 @@ nav > * {
 
   /* align-self: center; */
   padding-left: 10%;
-  background-image: linear-gradient(
-    to right,
-    rgb(122, 122, 122),
-    rgb(90, 90, 90)
-  );
+  background-image:
+    linear-gradient(
+      to right,
+      rgb(122, 122, 122),
+      rgb(90, 90, 90)
+    );
 }
 
 .cards h2 {
@@ -143,9 +145,11 @@ nav > * {
   grid-template-columns: 1fr 2fr;
   height: 400px;
 }
+
 .box5 .sum1 {
   padding: 9%;
 }
+
 .rightlogo {
   width: 100%;
   background-color: var(--gray4);
@@ -169,17 +173,18 @@ nav > * {
   background-color: var(--gray1);
   height: 500px;
   margin-top: 4%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 15% 25% 15% 25%;
 }
+
 .box6 h2 {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
+
 .box6 .button {
   background-color: white;
   width: 300px;
@@ -190,12 +195,14 @@ nav > * {
   grid-template-columns: 1fr 3fr;
   padding: 10% 5% 10% 5%;
 }
+
 .box7 h4 {
   margin-bottom: 5%;
   color: var(--gray2);
   text-transform: uppercase;
   font-family: 'Merriweather', serif;
 }
+
 .portrait {
   background-color: var(--gray4);
   width: 80%;
@@ -203,6 +210,7 @@ nav > * {
   transform: rotate(-15deg);
   margin-top: 12%;
 }
+
 .box8 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -253,18 +261,17 @@ nav > * {
 .box11 h4 {
   font-size: 1.5em;
   color: var(--gray3);
-  
 }
 
-.box11 > *{
-    padding: 5%;
+.box11 > * {
+  padding: 5%;
 }
 
-.list{
-    background-color: var(--gray2);
-    width: 90%;
-    height: 70%;
-    margin-top: 20px;
+.list {
+  background-color: var(--gray2);
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
 }
 
 .box12 {
@@ -287,6 +294,7 @@ nav > * {
 nav {
   display: none;
 }
+
 .box:not(.box12) {
   display: none;
 }
