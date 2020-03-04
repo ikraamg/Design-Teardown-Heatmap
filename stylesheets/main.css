@@ -34,6 +34,7 @@ article {
   height: 75%;
   transform: rotate(-15deg);
   margin-top: 12%;
+  box-shadow: 0 80px 80px -25px rgb(0, 0, 0);
 }
 
 .portrait1, 
@@ -45,6 +46,7 @@ article {
   border-radius: 15%;
   position: relative;
   left: 15%;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
 }
 
 nav {
