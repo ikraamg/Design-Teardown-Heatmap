@@ -7,13 +7,11 @@
 
 * {
   /* border: 1px red solid; */
-  border-radius: 5%;
-  margin: 0.2%;
   font-family: 'Jua', sans-serif;
 }
 
 html {
-  width: 1000px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -33,7 +31,12 @@ article {
 nav {
   width: 100%;
   height: 175px;
-  background-color: var(--gray4);
+  background-image:
+    linear-gradient(
+      to top,
+      rgb(122, 122, 122),
+      rgb(90, 90, 90)
+    );
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -42,7 +45,6 @@ nav {
 }
 
 nav > * {
-  background-color: var(--gray1);
   z-index: 1;
   width: 14%;
 }
@@ -53,15 +55,32 @@ nav > * {
   width: 3.5%;
   height: 40px;
   transform: rotate(-10deg);
+  background-color: var(--gray1);
 }
 
 .last {
   width: 11%;
-  height: 30%;
+  height: 25%;
+  background-color: var(--gray1);
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 8%;
+}
+
+.mid {
+  width: 205px;
+  height: 205px;
+  margin: 0;
 }
 
 .navtit {
-  padding-top: 35%;
+  padding-top: 12%;
   margin: 0 auto;
   text-align: center;
   height: 140px;
@@ -69,13 +88,13 @@ nav > * {
 
 .navtit h2 {
   font-family: 'Jua', sans-serif;
-  color: var(--gray4);
+  color: white;
   margin: 0;
 }
 
 .navtit h4 {
   font-family: 'Merriweather', serif;
-  color: var(--gray3);
+  color: white;
   font-size: 12px;
   margin: 0;
 }
@@ -84,34 +103,55 @@ nav > * {
   display: grid;
   grid-template-rows: 1.5fr 1fr;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--gray4);
   position: relative;
   height: 1000px;
 }
 
+.srsred {
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background-color: var(--gray2);
+}
+
 .cardsh {
   position: absolute;
-  background-color: white;
-  width: 400px;
-  padding: 5px;
+  width: 450px;
   margin: 0 50%;
-  left: -200px;
-  top: 7%;
+  left: -225px;
+  top: 6%;
+  text-align: center;
+  background: transparent;
+}
+
+.cardsh span {
+  background: white;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
   color: var(--gray4);
   font-size: 2.3em;
-  text-align: center;
+  padding: 15px;
+  box-shadow: 0 80px 40px -25px rgb(0, 0, 0);
 }
 
 .cards {
-  /* justify-self: left; */
   display: flex;
-  padding: 10px;
-
-  /* align-self: center; */
-  padding-left: 10%;
+  padding: 20px 17% 0 10%;
   background-image:
     linear-gradient(
-      to right,
+      to top,
+      rgb(122, 122, 122),
+      rgb(90, 90, 90)
+    );
+}
+
+.box1 > *:nth-child(2n):not(.cardsh) {
+  background-image:
+  linear-gradient(
+      to right top,
       rgb(122, 122, 122),
       rgb(90, 90, 90)
     );
@@ -121,6 +161,7 @@ nav > * {
   align-self: center;
   text-align: left;
   color: white;
+  font-size: 40px;
 }
 
 .box2,
@@ -135,7 +176,7 @@ nav > * {
 .box2 article,
 .box4 article,
 .box5 article {
-  color: var(--gray2);
+  color: var(--gray3);
   margin-top: 20px;
 }
 
@@ -143,7 +184,6 @@ nav > * {
 .box5 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 400px;
 }
 
 .box5 .sum1 {
@@ -157,16 +197,25 @@ nav > * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15%;
+  padding: 3% 15% 5% 15%;
 }
 
 .rightlogo h2 {
   margin-bottom: 10px;
+  color: white;
+  font-size: 42px;
+  text-decoration: underline;
 }
 
 .rightlogo article {
   text-align: center;
   text-indent: 25px;
+  color: var(--gray1);
+  font-size: 20px;
+}
+
+.rightlogo .button {
+  background-color: white;
 }
 
 .box6 {
@@ -291,10 +340,10 @@ nav > * {
   height: 100px;
 }
 
-nav {
+/* nav {
   display: none;
 }
 
 .box:not(.box12) {
   display: none;
-}
+} */
