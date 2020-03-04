@@ -237,3 +237,10 @@ nav > * {
   grid-template-columns: repeat(3, 1fr);
   height: 100px;
 }
+
+nav {
+  display: none;
+}
+.box:not(.box8) {
+  display: none;
+}
