@@ -1,15 +1,135 @@
+:root {
+  --gray1: rgb(206, 206, 206);
+  --gray2: rgb(177, 177, 177);
+  --gray3: rgb(122, 122, 122);
+  --gray4: rgb(85, 85, 85);
+}
+
 * {
-    border: 1px red solid;
+  border: 1px red solid;
 }
-.gray1 {
-    background-color: rgb(206, 206, 206);
+
+/* .gray1 {
+  background-color: rgb(206, 206, 206);
 }
-.gray2{
-    background-color: rgb(177, 177, 177);
+.gray2 {
+  background-color: rgb(177, 177, 177);
 }
-.gray3{
-    background-color: rgb(122, 122, 122);
+.gray3 {
+  background-color: rgb(122, 122, 122);
 }
-.gray4{
-    background-color: rgb(85, 85, 85);
+.gray4 {
+  background-color: rgb(85, 85, 85);
+} */
+
+nav {
+  width: 100%;
+  height: 175px;
+  background-color: var(--gray4);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > * {
+  background-color: var(--gray3);
+  z-index: 1;
+  width: 14%;
+}
+
+.box1 {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--gray4);
+  position: relative;
+  height: 500px;
+}
+
+.cardsh {
+  position: absolute;
+  background-color: blue;
+  width: 400px;
+  height: 120px;
+  margin: 0 calc(50%);
+  left: -200px;
+}
+
+.box2 {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+}
+
+.box3 {
+  display: grid;
+  background-color: rgb(98, 134, 134);
+  grid-template-columns: 1fr 2fr;
+  height: 400px;
+}
+
+.box4 {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+}
+
+.box5 {
+  display: grid;
+  background-color: rgb(98, 134, 134);
+  grid-template-columns: 1fr 2fr;
+  height: 400px;
+}
+
+.box6 {
+  background-color: rgb(106, 192, 99);
+  height: 500px;
+}
+
+.box7 {
+  display: grid;
+  background-color: rgb(172, 180, 52);
+  grid-template-columns: 1fr 3fr;
+  height: 200px;
+}
+
+.box8 {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 400px;
+}
+
+.box10 {
+  display: grid;
+  background-color: rgb(161, 132, 37);
+  grid-template-columns: 2fr 1fr;
+  height: 400px;
+}
+
+.box11 {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: repeat(3, 1fr);
+  height: 500px;
+}
+
+.box12 {
+  display: grid;
+  background-color: rgb(98, 134, 134);
+  grid-template-columns: 1fr 2fr;
+  height: 400px;
+}
+
+.box14 {
+  background-color: rgb(149, 26, 165);
+
+}
+.child14 {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  height: 100px;
 }
