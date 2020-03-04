@@ -1,3 +1,15 @@
 * {
     border: 1px red solid;
 }
+.gray1 {
+    background-color: rgb(206, 206, 206);
+}
+.gray2{
+    background-color: rgb(177, 177, 177);
+}
+.gray3{
+    background-color: rgb(122, 122, 122);
+}
+.gray4{
+    background-color: rgb(85, 85, 85);
+}
