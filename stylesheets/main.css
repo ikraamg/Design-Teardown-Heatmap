@@ -121,7 +121,8 @@ nav > * {
   color: white;
 }
 
-.box2, .box4 {
+.box2,
+.box4 {
   display: grid;
   background-color: white;
   grid-template-columns: repeat(3, 1fr);
@@ -129,12 +130,15 @@ nav > * {
   gap: 3%;
 }
 
-.box2 article, .box4 article, .box5 article {
+.box2 article,
+.box4 article,
+.box5 article {
   color: var(--gray2);
   margin-top: 20px;
 }
 
-.box3, .box5 {
+.box3,
+.box5 {
   display: grid;
   grid-template-columns: 1fr 2fr;
   height: 400px;
@@ -162,7 +166,7 @@ nav > * {
 }
 
 .box6 {
-  background-color:var(--gray1);
+  background-color: var(--gray1);
   height: 500px;
   margin-top: 4%;
 
@@ -201,24 +205,66 @@ nav > * {
 }
 .box8 {
   display: grid;
-  background-color: aqua;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  height: 400px;
+}
+
+.box8 > * {
+  padding: 5% 5% 5% 20%;
+}
+
+.box8 h4 {
+  font-size: 1.6em;
+  color: var(--gray4);
+  margin-bottom: 5%;
+}
+
+.box8 article {
+  color: var(--gray2);
+  margin-bottom: 15%;
 }
 
 .box10 {
   display: grid;
-  background-color: rgb(161, 132, 37);
+  background-color: var(--gray4);
   grid-template-columns: 2fr 1fr;
   height: 400px;
+  align-content: center;
+  color: white;
+  padding-left: 5%;
+}
+
+.box10 h3 {
+  font-size: 3em;
+}
+
+.box10 .button {
+  color: var(--gray3);
+  background-color: white;
 }
 
 .box11 {
   display: grid;
-  background-color: aqua;
+  background-color: white;
   grid-template-columns: repeat(3, 1fr);
   height: 500px;
+}
+
+.box11 h4 {
+  font-size: 1.5em;
+  color: var(--gray3);
+  
+}
+
+.box11 > *{
+    padding: 5%;
+}
+
+.list{
+    background-color: var(--gray2);
+    width: 90%;
+    height: 70%;
+    margin-top: 20px;
 }
 
 .box12 {
@@ -241,6 +287,6 @@ nav > * {
 nav {
   display: none;
 }
-.box:not(.box8) {
+.box:not(.box12) {
   display: none;
 }
