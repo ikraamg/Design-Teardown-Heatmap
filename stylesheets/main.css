@@ -120,6 +120,14 @@ nav > * {
   margin: 0;
 }
 
+.box8 > * {
+  padding: 5% 5% 5% 20%;
+}
+
+.box11 > * {
+  padding: 5%;
+}
+
 .box1 {
   display: grid;
   grid-template-rows: 1.5fr 1fr;
@@ -285,10 +293,6 @@ nav > * {
   grid-template-rows: repeat(3, 1fr);
 }
 
-.box8 > * {
-  padding: 5% 5% 5% 20%;
-}
-
 .box8 h4 {
   font-size: 1.6em;
   color: var(--gray4);
@@ -330,10 +334,6 @@ nav > * {
 .box11 h4 {
   font-size: 1.5em;
   color: var(--gray3);
-}
-
-.box11 > * {
-  padding: 5%;
 }
 
 .list {
