@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/ikraamg/Design-Teardown-Heatmap/Heatmap/index.html)
 
 ## Getting Started
 
