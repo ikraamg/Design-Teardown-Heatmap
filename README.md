@@ -1,10 +1,12 @@
 [![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Ikraam-Click%20to%20Contact-brightgreen)](mailto:consult.ikraam@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/GhoorIkraam?label=Follow%20Ikraam%20on%20Twitter&style=social)](https://twitter.com/GhoorIkraam)
 
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Kubilay-Click%20to%20Contact-brightgreen)](mailto:kblycaglayan@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/kbcaglayan?label=Follow%20Kubilay%20on%20Twitter&style=social)](https://twitter.com/kbcaglayan)
+
 # Project Name
 
 > One paragraph statement about the project.
 
-![heatmap](https://user-images.githubusercontent.com/60448833/75962994-c981e680-5ed5-11ea-8d1c-1e3304cfe064.gif)
+![heatmap2](https://user-images.githubusercontent.com/60448833/75969915-ae68a400-5ee0-11ea-8d24-5ffc3c74dccc.gif)
 
 Additional description about the project and its features.
 
@@ -12,12 +14,10 @@ Additional description about the project and its features.
 
 - HTML 5
 - CSS 3
-- frameworks,
-- technologies used
 
 ## Live Demo
 
-[Live Demo Link](https://ikraamg.github.io/<REPO_NAME>)
+[Live Demo Link]()
 
 ## Getting Started
 
@@ -27,18 +27,10 @@ To get a local copy up and running follow these steps:
 
 A browser (preferably Chrome)
 
-### Setup
-
-### Install
-
 ### Usage
 
 - Fork/Clone this project to your local machine
 - Open index.html in your browser
-
-### Run tests
-
-### Deployment
 
 ## Authors
 
@@ -49,11 +41,19 @@ A browser (preferably Chrome)
 - LinkedIn: [isghoor](https://linkedin.com/isghoor)
 - Email: [consult.ikraam@gmail.com](mailto:consult.ikraam@gmail.com)
 
+👤 **Kubilay Caglayan**
+
+- Github: [@kblycaglayan](https://github.com/kblycaglayan)
+- Twitter: [@kbcaglayan](https://twitter.com/kbcaglayan)
+- LinkedIn: [Kubilay](https://www.linkedin.com/in/kubilaycaglayan/)
+- Email: [kblycaglayan@gmail.com](mailto:kblycaglayan@gmail.com)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ikraamg/<REPO_NAME>/issues)
+Feel free to check the [issues page](https://github.com/ikraamg/Design-Teardown-Heatmap/
+/issues)
 
 Start by:
 
@@ -65,12 +65,6 @@ Start by:
 - Push your branch up to your forked repository
 - Open a Pull Request with a detailed description to the development(or master if not available) branch of the original project for a review
 
-### 🚀 Potential/Future Features
-
-- Improve/Add features
-- Feature 2
-- Improvement 3
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -79,9 +73,7 @@ Give a ⭐️ if you like this project!
 
 - The Odin project for the project plan
 - sanitize.css creators for the web reset
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- https://www.smashingmagazine.com/
 
 ## 📝 License
 
