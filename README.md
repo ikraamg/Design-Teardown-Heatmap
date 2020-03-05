@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](ss.png)
+![heatmap](https://user-images.githubusercontent.com/60448833/75962994-c981e680-5ed5-11ea-8d1c-1e3304cfe064.gif)
 
 Additional description about the project and its features.
 
