@@ -206,6 +206,8 @@ nav > * {
   grid-template-columns: repeat(3, 1fr);
   padding: 3%;
   gap: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box2 article,
@@ -219,6 +221,11 @@ nav > * {
 .box5 {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+.sum h4 {
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 .box5 .sum1 {
@@ -255,23 +262,33 @@ nav > * {
 
 .box6 {
   background-color: var(--gray1);
-  height: 500px;
-  margin-top: 4%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 15% 25% 15% 25%;
+  padding: 2% 25% 2% 25%;
 }
 
 .box6 h2 {
   color: rgb(255, 255, 255);
   text-decoration: underline;
+  font-size: 35px;
+  text-align: center;
+}
+
+.box article {
+  text-align: center;
 }
 
 .box6 .button {
   background-color: white;
   width: 300px;
+  margin-bottom: 5%;
+}
+
+.box .circle {
+  width: 350px;
+  height: 350px;
 }
 
 .box7 {
@@ -297,6 +314,7 @@ nav > * {
   font-size: 1.6em;
   color: var(--gray4);
   margin-bottom: 5%;
+  font-size: 35px;
 }
 
 .box8 article {
@@ -304,6 +322,14 @@ nav > * {
   margin-bottom: 15%;
 }
 
+.box9 {
+  width: 20%;
+  margin: 10% auto;
+  text-decoration: underline;
+  font-family: serif;
+  background-color: var(--gray1);
+  text-align: center;
+}
 .box10 {
   display: grid;
   background-color: var(--gray4);
@@ -388,6 +414,10 @@ nav > * {
 .links14 {
   text-align: center;
   font-size: 1.6em;
+  line-height: 2em;
+  background-color: var(--gray3);
+  box-decoration-break: break;
+  margin-top: 5%;
 }
 
 /* nav {
