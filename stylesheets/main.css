@@ -216,7 +216,9 @@ nav > * {
   color: var(--gray3);
   margin-top: 20px;
 }
-
+.sum article h4 {
+  color: black;
+}
 .box3,
 .box5 {
   display: grid;
@@ -297,11 +299,12 @@ nav > * {
   padding: 10% 5% 10% 5%;
 }
 
-.box7 h4 {
+.box7 div article h4 {
   margin-bottom: 5%;
   color: var(--gray2);
   text-transform: uppercase;
   font-family: 'Merriweather', serif;
+  text-align: left;
 }
 
 .box8 {
@@ -310,11 +313,11 @@ nav > * {
   grid-template-rows: repeat(3, 1fr);
 }
 
-.box8 h4 {
-  font-size: 1.6em;
+.box8 div article h4 {
   color: var(--gray4);
   margin-bottom: 5%;
   font-size: 35px;
+  text-align: left;
 }
 
 .box8 article {
@@ -330,6 +333,7 @@ nav > * {
   background-color: var(--gray1);
   text-align: center;
 }
+
 .box10 {
   display: grid;
   background-color: var(--gray4);
@@ -340,8 +344,9 @@ nav > * {
   padding-left: 5%;
 }
 
-.box10 h3 {
+.box10 div article h3 {
   font-size: 3em;
+  text-align: left;
 }
 
 .box10 .button {
