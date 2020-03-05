@@ -6,12 +6,10 @@
 }
 
 * {
-  /* border: 1px red solid; */
   font-family: 'Jua', sans-serif;
 }
 
 html {
-  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -424,11 +422,3 @@ nav > * {
   box-decoration-break: break;
   margin-top: 5%;
 }
-
-/* nav {
-  display: none;
-}
-
-.box:not(.box14) {
-  display: none;
-} */
