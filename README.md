@@ -2,9 +2,9 @@
 
 [![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Kubilay-Click%20to%20Contact-brightgreen)](mailto:kblycaglayan@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/kbcaglayan?label=Follow%20Kubilay%20on%20Twitter&style=social)](https://twitter.com/kbcaglayan)
 
-# Project Name
+# Design-Teardown
 
-> One paragraph statement about the project.
+> This is a visual hierarchy heat-map of the Smashing Magazine home page
 
 ![heatmap2](https://user-images.githubusercontent.com/60448833/75969915-ae68a400-5ee0-11ea-8d24-5ffc3c74dccc.gif)
 
