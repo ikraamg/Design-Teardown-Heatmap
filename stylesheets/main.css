@@ -30,6 +30,7 @@ article {
   background-color: var(--gray4);
   width: 80%;
   height: 75%;
+  -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
   margin-top: 12%;
   box-shadow: 0 80px 80px -25px rgb(0, 0, 0);
@@ -37,6 +38,7 @@ article {
 
 .portrait1,
 .portrait2 {
+  -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
   background-color: var(--gray1);
   width: 35%;
@@ -51,13 +53,23 @@ nav {
   width: 100%;
   height: 175px;
   background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgb(122, 122, 122)),
+      to(rgb(90, 90, 90))
+    );
+  background-image:
     linear-gradient(
       to top,
       rgb(122, 122, 122),
       rgb(90, 90, 90)
     );
+  display: -webkit-box;
   display: flex;
   justify-content: space-around;
+  -webkit-box-align: center;
   align-items: center;
   padding-left: 2%;
   padding-right: 2%;
@@ -73,6 +85,7 @@ nav > * {
   top: -20px;
   width: 3.5%;
   height: 40px;
+  -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
   background-color: var(--gray1);
 }
@@ -165,8 +178,17 @@ nav > * {
 }
 
 .cards {
+  display: -webkit-box;
   display: flex;
   padding: 30% 17% 0 1%;
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgb(122, 122, 122)),
+      to(rgb(90, 90, 90))
+    );
   background-image:
     linear-gradient(
       to top,
@@ -182,6 +204,14 @@ nav > * {
 }
 
 .box1 > *:nth-child(2n):not(.cardsh) {
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      right top,
+      from(rgb(122, 122, 122)),
+      to(rgb(90, 90, 90))
+    );
   background-image:
     linear-gradient(
       to right top,
@@ -243,9 +273,14 @@ nav > * {
 .rightlogo {
   width: 100%;
   background-color: var(--gray4);
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   padding: 3% 15% 5% 15%;
 }
@@ -270,9 +305,14 @@ nav > * {
 
 .box6 {
   background-color: var(--gray1);
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
+  -webkit-box-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
   align-items: center;
   padding: 2% 25% 2% 25%;
 }
@@ -408,6 +448,7 @@ nav > * {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  -webkit-box-align: end;
   align-items: end;
 }
 
@@ -421,6 +462,7 @@ nav > * {
   font-size: 1.6em;
   line-height: 2em;
   background-color: var(--gray3);
+  -webkit-box-decoration-break: break;
   box-decoration-break: break;
   margin-top: 5%;
 }
