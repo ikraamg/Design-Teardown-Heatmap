@@ -1,0 +1,468 @@
+:root {
+  --gray1: rgb(206, 206, 206);
+  --gray2: rgb(177, 177, 177);
+  --gray3: rgb(122, 122, 122);
+  --gray4: rgb(85, 85, 85);
+}
+
+* {
+  font-family: 'Jua', sans-serif;
+}
+
+html {
+  margin: 0 auto;
+}
+
+article {
+  font-family: 'Merriweather', serif;
+}
+
+.button {
+  background-color: var(--gray1);
+  width: 200px;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.portrait {
+  background-color: var(--gray4);
+  width: 80%;
+  height: 75%;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  margin-top: 12%;
+  box-shadow: 0 80px 80px -25px rgb(0, 0, 0);
+}
+
+.portrait1,
+.portrait2 {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  background-color: var(--gray1);
+  width: 35%;
+  height: 20%;
+  border-radius: 15%;
+  position: relative;
+  left: 15%;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+}
+
+nav {
+  width: 100%;
+  height: 175px;
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgb(122, 122, 122)),
+      to(rgb(90, 90, 90))
+    );
+  background-image:
+    linear-gradient(
+      to top,
+      rgb(122, 122, 122),
+      rgb(90, 90, 90)
+    );
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+nav > * {
+  z-index: 1;
+  width: 14%;
+}
+
+.first {
+  position: relative;
+  top: -20px;
+  width: 3.5%;
+  height: 40px;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  background-color: var(--gray1);
+}
+
+.last {
+  width: 11%;
+  height: 25%;
+  background-color: var(--gray1);
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 8%;
+}
+
+.mid {
+  width: 205px;
+  height: 205px;
+  margin: 0;
+}
+
+.navtit {
+  padding-top: 12%;
+  margin: 0 auto;
+  text-align: center;
+  height: 140px;
+}
+
+.navtit h2 {
+  font-family: 'Jua', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.navtit h4 {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
+
+.box8 > * {
+  padding: 5% 5% 5% 20%;
+}
+
+.box11 > * {
+  padding: 5%;
+}
+
+.box1 {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  height: 1000px;
+}
+
+.srsred {
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background-color: var(--gray2);
+}
+
+.cardsh {
+  position: absolute;
+  width: 450px;
+  margin: 0 50%;
+  left: -225px;
+  top: 6%;
+  text-align: center;
+  background: transparent;
+}
+
+.cardsh span {
+  background: white;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: var(--gray4);
+  font-size: 2.3em;
+  padding: 15px;
+  box-shadow: 0 80px 60px -20px rgb(0, 0, 0);
+}
+
+.cards {
+  display: -webkit-box;
+  display: flex;
+  padding: 30% 17% 0 1%;
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgb(122, 122, 122)),
+      to(rgb(90, 90, 90))
+    );
+  background-image:
+    linear-gradient(
+      to top,
+      rgb(122, 122, 122),
+      rgb(90, 90, 90)
+    );
+  padding-top: 30%;
+}
+
+.cards3,
+.cards4 {
+  padding: 5% 17% 0 1%;
+}
+
+.box1 > *:nth-child(2n):not(.cardsh) {
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      right top,
+      from(rgb(122, 122, 122)),
+      to(rgb(90, 90, 90))
+    );
+  background-image:
+    linear-gradient(
+      to right top,
+      rgb(122, 122, 122),
+      rgb(90, 90, 90)
+    );
+}
+
+.cards h2 {
+  align-self: center;
+  text-align: left;
+  color: white;
+  font-size: 40px;
+}
+
+.box2,
+.box4 {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3%;
+  gap: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.box2 article,
+.box4 article,
+.box5 article {
+  color: var(--gray3);
+  margin-top: 20px;
+}
+
+.sum h4 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.box12 h4,
+.box11 h4 {
+  font-size: 1.5em;
+  color: var(--gray3);
+}
+
+.sum article h4 {
+  color: black;
+}
+
+.box3,
+.box5 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.box5 .sum1 {
+  padding: 9%;
+}
+
+.rightlogo {
+  width: 100%;
+  background-color: var(--gray4);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 3% 15% 5% 15%;
+}
+
+.rightlogo h2 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 42px;
+  text-decoration: underline;
+}
+
+.rightlogo article {
+  text-align: center;
+  text-indent: 25px;
+  color: var(--gray1);
+  font-size: 20px;
+}
+
+.rightlogo .button {
+  background-color: white;
+}
+
+.box6 {
+  background-color: var(--gray1);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 2% 25% 2% 25%;
+}
+
+.box6 h2 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 35px;
+  text-align: center;
+}
+
+.box article {
+  text-align: center;
+}
+
+.box6 .button {
+  background-color: white;
+  width: 300px;
+  margin-bottom: 5%;
+}
+
+.box .circle {
+  width: 350px;
+  height: 350px;
+}
+
+.box7 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 10% 5% 10% 5%;
+}
+
+.box7 div article h4 {
+  margin-bottom: 5%;
+  color: var(--gray2);
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  text-align: left;
+}
+
+.box8 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.box8 div article h4 {
+  color: var(--gray4);
+  margin-bottom: 5%;
+  font-size: 35px;
+  text-align: left;
+}
+
+.box8 article {
+  color: var(--gray2);
+  margin-bottom: 15%;
+}
+
+.box9 {
+  width: 20%;
+  margin: 10% auto;
+  text-decoration: underline;
+  font-family: serif;
+  background-color: var(--gray1);
+  text-align: center;
+}
+
+.box10 {
+  display: grid;
+  background-color: var(--gray4);
+  grid-template-columns: 2fr 1fr;
+  height: 400px;
+  align-content: center;
+  color: white;
+  padding-left: 5%;
+}
+
+.box10 div article h3 {
+  font-size: 3em;
+  text-align: left;
+}
+
+.box10 .button {
+  color: var(--gray3);
+  background-color: white;
+}
+
+.box11 {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(3, 1fr);
+  height: 500px;
+}
+
+.list {
+  background-color: var(--gray2);
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
+}
+
+.box12 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 800px;
+  margin: 5%;
+  margin-left: 1.5%;
+}
+
+.box12logo {
+  background-color: var(--gray4);
+}
+
+.list12 {
+  background-color: var(--gray2);
+  width: 90%;
+  height: 60%;
+  margin-top: 20px;
+}
+
+.logo12 .circle {
+  margin: 15% 0;
+}
+
+.box14 {
+  background-color: var(--gray4);
+  padding: 5%;
+  color: var(--gray1);
+}
+
+.child14 {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  -webkit-box-align: end;
+  align-items: end;
+}
+
+.child14 .circle {
+  width: 100px;
+  height: 100px;
+}
+
+.links14 {
+  text-align: center;
+  font-size: 1.6em;
+  line-height: 2em;
+  background-color: var(--gray3);
+  -webkit-box-decoration-break: break;
+  box-decoration-break: break;
+  margin-top: 5%;
+}
